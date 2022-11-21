@@ -6,75 +6,40 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
-    font-family: consolas;
+    font-family: Poppins;
 }
 
 button, input { background-color: transparent; border: none; }
+
+:root {
+    --thin-bd-r: 10px;
+    --circle-bd-r: 1000px; 
+    --header-navbar-height: 80px; 
+    --nav-sidebar-width: 80px;
+    --search-pos-sidebar-width: 320px; 
+}
 
 :root .theme-dark {
     --v-dark: 42, 42, 42; 
     --v-dark-hover: 78, 78, 78
 }
 
-header {
-    height: 80px;
-    background-color: rgb(var(--v-dark));
-}
-
-.left-1pc { left: 1%; }
-.right-1pc { right: 1%; }
-
-.header-left img {
-    margin-left: 18px;
-}
-
-.header-left button:hover {
-    background-color: rgb(var(--v-dark-hover));
-}
-
-.header-left button:hover, 
-.header-left button:not(:hover) {
-    transition: 0.3s;
-}
-
-.header-left button {
-    width: 45px; 
-    border-radius: 14px;
-    text-align: center;
-    padding-left: 11px; 
-}
-
-.header-right {
-    width: 150px; 
-    height: 50px; 
-    background-color: yellow;
-}
-
-.close-ic ion-icon {
-    color: rgb(228, 228, 228); 
-    font-size: 22px;
-}
-
-.header-sidebar-link span ion-icon {
-    color: rgb(179, 179, 179); 
-    font-size: 28px;
-}
-
-.header-sidebar-link:hover, 
-.header-sidebar-link:not(:hover) {
-    transition: 0.3s;
-}
-
-.header-sidebar-link:hover {
-    background-color: rgb(77, 77, 77);
+:root .theme-light {
+    --light-orange: 243, 176, 51;
 }
 
 /* -------------- common -----------------*/
 .w-full { width: 100vw; }
 .h-full { height: 100vh; }
+.w-100pc { width: 100%; }
+.h-100pc { height: 100%; }
 
-.color-white { color: white; }
-.color-black { color: black; }
+
+.color-white { color: rgb(236, 236, 236); }
+.color-black { color: rgb(48, 48, 48); }
+.color-gray { color: gray; }
+.bg-black { background-color: rgb(48, 48, 48); }
+.bg-white { background-color: rgb(236, 236, 236); }
 
 .d-flex { display: flex; }
 .flex-col { flex-direction: column; }
@@ -86,6 +51,8 @@ header {
 .d-ib { display: inline-block; }
 .o-h { overflow: hidden; }
 .z-1 { z-index: 1; }
+.z-5 { z-index: 5; }
+.z-10 { z-index: 10; }
 .z-0 { z-index: 0; }
 
 .posrel { position: relative; }
@@ -111,3 +78,9 @@ header {
 .left-0 { left: 0; }
 .bottom-0 { bottom: 0; }
 .top-0 { top: 0; }
+
+.thin-bd-r { border-radius: var(--thin-bd-r); }
+.circle-bd-r { border-radius: var(--circle-bd-r); }
+
+.upper-text { text-transform: uppercase; }
+.lower-text { text-transform: lowercase; }

@@ -1,0 +1,9 @@
+main {
+  width: 100vw; 
+  height: 100vh; 
+  padding-top: var(--header-navbar-height);
+}
+
+#map-view {
+  top: var(--header-navbar-height); 
+}

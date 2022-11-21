@@ -1,0 +1,19 @@
+.nav-sidebar {
+  top: var(--header-navbar-height);
+  width: var(--nav-sidebar-width); 
+  background-color: rgb(var(--v-dark)); 
+  box-shadow: 5px 0px 18px rgb(56, 53, 53);
+}
+
+.nav-sidebar button {
+  width: 45px; 
+  height: 45px; 
+  margin-top: 10px; 
+}
+
+.nav-sidebar > button:hover {
+  background-color: rgb(var(--v-dark-hover));
+}
+
+.nav-sidebar > button:hover, 
+.nav-sidebar > button:not(:hover) { transition: 0.3s; }

@@ -1,0 +1,11 @@
+.esri-ui-top-left {
+  left: unset !important;
+  top: unset !important;
+  top: 45% !important;
+  right: 1% !important;
+  
+}
+
+.esri-ui-top-left .esri-widget {
+  border-radius: var(--thin-bd-r) !important;
+}

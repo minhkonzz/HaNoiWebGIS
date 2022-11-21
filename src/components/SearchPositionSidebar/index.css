@@ -1,0 +1,52 @@
+/* --------- common --------- */
+
+.left-6pc { left: 6%; }
+.right-6pc { right: 6%; }
+.right-12pc { right: 12%; }
+.top-35pc { top: 35%; }
+
+/* --------- main ----------- */
+.search-pos-sidebar-left-val { 
+  top: var(--header-navbar-height);
+  left: var(--nav-sidebar-width); 
+}
+
+.search-pos-sidebar {
+  width: var(--search-pos-sidebar-width); 
+  background-color: rgb(var(--v-dark));
+}
+
+.title-container {
+  height: 50px; 
+}
+
+.close-ic ion-icon {
+  margin-top: 7px;
+}
+
+.search-container {
+  height: 80px; 
+}
+
+.search-container input {
+  width: 85%; 
+  height: 45px;
+  padding: 5px 0 5px 15px; 
+  box-shadow: 1px 1px 4px rgb(0, 0, 0);
+  background-color: rgb(49, 49, 49);
+}
+
+.search-container input:focus {
+  outline: none;
+  background-color: rgb(77, 77, 77);
+}
+
+.search-container input:focus, 
+.search-container input:not(:focus) { transition: 0.3s; }
+
+.search-container ion-icon {
+  font-size: 22px;
+}
+
+
+

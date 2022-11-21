@@ -1,0 +1,52 @@
+header {
+    height: var(--header-navbar-height);
+    background-color: rgb(var(--v-dark));
+}
+
+.left-1pc { left: 1%; }
+.right-1pc { right: 1%; }
+
+.header-left img {
+    margin-left: 18px;
+}
+
+.header-left button:hover {
+    background-color: rgb(var(--v-dark-hover));
+}
+
+.header-left button:hover, 
+.header-left button:not(:hover) {
+    transition: 0.3s;
+}
+
+.header-left button {
+    width: 45px; 
+    border-radius: 14px;
+    text-align: center;
+    padding-left: 11px; 
+}
+
+.header-right {
+    width: 150px; 
+    height: 50px; 
+    background-color: yellow;
+}
+
+.close-ic ion-icon {
+    color: rgb(228, 228, 228); 
+    font-size: 22px;
+}
+
+.header-sidebar-link span ion-icon {
+    color: rgb(179, 179, 179); 
+    font-size: 28px;
+}
+
+.header-sidebar-link:hover, 
+.header-sidebar-link:not(:hover) {
+    transition: 0.3s;
+}
+
+.header-sidebar-link:hover {
+    background-color: rgb(77, 77, 77);
+}

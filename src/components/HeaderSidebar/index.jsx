@@ -1,4 +1,4 @@
-import HeaderSidebarSection from "./HeaderSidebarSection"
+import HeaderSidebarSection from "./HeaderSidebarSection";
 
 const HeaderSidebarSections = [
    {

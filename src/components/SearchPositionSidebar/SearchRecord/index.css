@@ -1,0 +1,26 @@
+/* --------- common ---------- */
+
+/* --------- main ---------- */
+
+.search-record {
+  border: 0.5px solid gray;
+  height: 60px;
+}
+
+.search-record ion-icon {
+  font-size: 28px;
+  color: rgb(var(--light-orange));
+}
+
+.location-desc p:first-child {
+  color: rgb(219, 219, 219); 
+  font-size: 17px;
+}
+
+.location-desc p:last-child {
+  color: rgb(143, 143, 143);
+  font-size: 13px;
+}
+
+.location-desc p:first-child
+.location-desc p:last-child { font-family: sans-serif; }
